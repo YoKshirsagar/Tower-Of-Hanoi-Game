@@ -1,64 +1,46 @@
-# Tower of Hanoi Game
+<!-- PROJECT TITLE -->
+<h1 align="center">Tower of Hanoi Game</h1>
 
-Tower of Hanoi is a classic mathematical puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod. The puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top. The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules:
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li><a href="#about-the-project">About the Project</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-1. Only one disk can be moved at a time.
-2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack.
-3. No disk may be placed on top of a smaller disk.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
+Tower of Hanoi is a classic mathematical puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod. The objective of the puzzle is to move the entire stack to another rod, obeying specific rules.
+
+This project implements the Tower of Hanoi puzzle using computer graphics in C language.
+
+<!-- FEATURES -->
 ## Features
 
-- Interactive gameplay using computer graphics.
-- Adjustable number of disks to increase difficulty.
-- Beautiful visual representation of the Tower of Hanoi puzzle.
+- Interactive gameplay with visually appealing graphics.
+- Adjustable difficulty level by selecting the number of disks.
+- Intuitive drag-and-drop functionality for moving disks.
+- Beautifully animated transitions between moves.
 
-## Installation
-
-1. Clone this repository:
-
-    ```bash
-    git clone https://github.com/your-username/tower-of-hanoi.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd tower-of-hanoi
-    ```
-
-3. Compile the source code:
-
-    ```bash
-    gcc -o tower_of_hanoi tower_of_hanoi.c -lm -lgraph
-    ```
-
-4. Run the executable:
-
-    ```bash
-    ./tower_of_hanoi
-    ```
-
-## How to Play
-
-1. Launch the game after following the installation instructions.
-2. Use the mouse to select and drag disks from one rod to another.
-3. Follow the rules of the Tower of Hanoi puzzle to move disks to the target rod.
-
-## Screenshots
-
-![Screenshot 1](screenshots/screenshot1.png)
-*Description of the screenshot.*
-
-![Screenshot 2](screenshots/screenshot2.png)
-*Description of the screenshot.*
-
-## Video Demonstration
+<!-- DEMO -->
+## Demo
 
 [![Tower of Hanoi Gameplay](https://img.youtube.com/vi/your-video-id/0.jpg)](https://www.youtube.com/watch?v=your-video-id)
 
 Click the image above to watch a video demonstration of the Tower of Hanoi gameplay.
 
-## Contributing
+<!-- INSTALLATION -->
+## Installation
 
-Contributions are welcome! Feel free to open a pull request or report any issues.
-
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/tower-of-hanoi.git
