@@ -13,7 +13,7 @@ void animation()
     outtextxy(450, 410, "CREATED BY :");
     outtextxy(540, 430, "* YOGESH");
     outtextxy(540, 450, "* SAMARTH");
-    outtextxy(540, 470, "* YASH");
+  
     setcolor(15);
     line(0, 400, 600, 400); // bottom horizontal line
 
